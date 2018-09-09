@@ -6,18 +6,33 @@
 </head>
 <body>
     <br>
-    <form>
-            First Name: <input type="text"><br>
-            Last Name: <input type="text"><br>
-            email: <input type="email" required><br>
-            Pass: <input type="password" min="5" 
-            Gender: <input type="radio" name="Gender"> Male<br>
-            <input type="radio" name="Gender">Female<br>
-            <input type="radio" name="Gender">Other<br>
-            <input type="submit" value="Register!">
-            <input type="reset">
-    </form>
+    <form method="GET">
+            First Name: <input type="text" name="firstname"> <br>
+            Last Name: <input type="text" name="lastname"><br>
+            email: <input type="email" required name="email"><br>
+            Pass: <input type="password"  name="password" min="5"> 
+            Birthday: <input type="date"  name="birthday"> <br>
+            Gender: <input type="radio" name="Gender" value="Male"> Male<br>
+            <input type="radio" name="Gender" value="Female">Female<br>
+            <input type="radio" name="Gender" value="Other">Other<br>
+       
+            Pets:<br>
+            <input type="checkbox" name="Cat"> Cat<br>
+            <input type="checkbox" name="Dawg"> Dawg<br>
+
+            Cars:<br>
+            <select name="cars">
+              <option value="volvo" name="volvo">Volvo</option>
+              <option value="audi" name="audi">Audi</option> 
+              /select> 
+              .<br><br>
+
+            <input type="submit" value="Register!">     <input type="reset">
+
+            </form>
     <br><br>
   <a href="index.html">back to main page</a>
 </body>
 </html>
+
+?
